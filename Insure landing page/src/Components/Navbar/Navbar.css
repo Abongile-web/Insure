@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 10%;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  margin: 0 20px;
+  list-style: none;
+  color: rgb(124, 124, 124);
+}
+nav ul a {
+  border: 2px solid black;
+  padding: 8px 25px;
+  transition: 0.3s ease;
+}
+nav ul a:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}/*# sourceMappingURL=Navbar.css.map */

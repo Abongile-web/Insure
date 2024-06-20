@@ -1,0 +1,30 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 10%;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li {
+            margin: 0 20px;
+            list-style: none;
+            color: rgb(124, 124, 124);
+        }
+
+        a {
+            border: 2px solid black;
+            padding: 8px 25px;
+            transition: 0.3s ease;
+        }
+        a:hover {
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
